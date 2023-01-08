@@ -1,0 +1,35 @@
+{
+  "afd3f58c2b": {
+    "class": "org.openhab.core.automation.dto.RuleDTO",
+    "value": {
+      "triggers": [
+        {
+          "id": "1",
+          "configuration": {
+            "itemName": "30FREQUENCY_ValueasNumber"
+          },
+          "type": "core.ItemStateUpdateTrigger"
+        }
+      ],
+      "conditions": [],
+      "actions": [
+        {
+          "inputs": {},
+          "id": "2",
+          "configuration": {
+            "blockSource": "\u003cxml xmlns\u003d\"https://developers.google.com/blockly/xml\"\u003e\u003cblock type\u003d\"oh_getitem_state\" id\u003d\"WorOp/Pi6FI.5^mI*\u003d^S\" x\u003d\"42\" y\u003d\"69\"\u003e\u003cvalue name\u003d\"itemName\"\u003e\u003cshadow type\u003d\"oh_item\" id\u003d\"n%f6tk+1vW?#qAOhYj,F\"\u003e\u003cfield name\u003d\"itemName\"\u003eMyItem\u003c/field\u003e\u003c/shadow\u003e\u003c/value\u003e\u003c/block\u003e\u003cblock type\u003d\"oh_event\" id\u003d\"}HnT4YVg9IBs9)UHaWxY\" x\u003d\"16\" y\u003d\"121\"\u003e\u003cfield name\u003d\"eventType\"\u003epostUpdate\u003c/field\u003e\u003cvalue name\u003d\"value\"\u003e\u003cshadow type\u003d\"text\" id\u003d\"SsqUxGVfogRx1/uz7wJ|\"\u003e\u003cfield name\u003d\"TEXT\"\u003e10\u003c/field\u003e\u003c/shadow\u003e\u003c/value\u003e\u003cvalue name\u003d\"itemName\"\u003e\u003cshadow type\u003d\"oh_item\" id\u003d\"\u003dSmL1:a+yd/C|*WUxn*J\"\u003e\u003cfield name\u003d\"itemName\"\u003e30FREQUENCY_ValueasNumber\u003c/field\u003e\u003c/shadow\u003e\u003c/value\u003e\u003c/block\u003e\u003cblock type\u003d\"math_arithmetic\" id\u003d\"/lioxlp.dZ}L#3)%nR+|\" x\u003d\"43\" y\u003d\"176\"\u003e\u003cfield name\u003d\"OP\"\u003eADD\u003c/field\u003e\u003cvalue name\u003d\"A\"\u003e\u003cshadow type\u003d\"math_number\" id\u003d\"JV.Tz)60w]I#TxRM/H*l\"\u003e\u003cfield name\u003d\"NUM\"\u003e1\u003c/field\u003e\u003c/shadow\u003e\u003c/value\u003e\u003cvalue name\u003d\"B\"\u003e\u003cshadow type\u003d\"math_number\" id\u003d\"q1~DW]:lKBt[:rtC3D#f\"\u003e\u003cfield name\u003d\"NUM\"\u003e1\u003c/field\u003e\u003c/shadow\u003e\u003c/value\u003e\u003c/block\u003e\u003c/xml\u003e",
+            "type": "application/javascript",
+            "script": "events.postUpdate(\u002730FREQUENCY_ValueasNumber\u0027, \u0027itemRegistry.getItem(\u0027MyItem\u0027).getState() / 2\u0027);\n"
+          },
+          "type": "script.ScriptAction"
+        }
+      ],
+      "configuration": {},
+      "configDescriptions": [],
+      "uid": "afd3f58c2b",
+      "name": "Convert Wh to KWh",
+      "tags": [],
+      "visibility": "VISIBLE"
+    }
+  }
+}

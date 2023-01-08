@@ -1,0 +1,3391 @@
+{
+  "26ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:1666aef834:e87398d19b:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1666aef834",
+          "e87398d19b",
+          "number"
+        ],
+        "uid": "modbus:data:1666aef834:e87398d19b:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "25_APARENT_EXPORT_KVAH -\u003e modbus:data:9479c2f2ec:7711798354:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9479c2f2ec",
+          "7711798354",
+          "number"
+        ],
+        "uid": "modbus:data:9479c2f2ec:7711798354:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_APARENT_EXPORT_KVAH"
+    }
+  },
+  "27FREQUENCY_ValueasNumber -\u003e modbus:data:f4ba53ddbc:1aa5a5fb8c:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f4ba53ddbc",
+          "1aa5a5fb8c",
+          "number"
+        ],
+        "uid": "modbus:data:f4ba53ddbc:1aa5a5fb8c:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27FREQUENCY_ValueasNumber"
+    }
+  },
+  "01VOLTAGEL2N_ValueasNumber -\u003e modbus:data:1708c3649f:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1708c3649f",
+          "number"
+        ],
+        "uid": "modbus:data:1708c3649f:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "25ReactiveNet_ValueasNumber -\u003e modbus:data:c2308708e6:ff659b7faa:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "ff659b7faa",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:ff659b7faa:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ReactiveNet_ValueasNumber"
+    }
+  },
+  "25ApparentNet_ValueasNumber -\u003e modbus:data:c2308708e6:e917182a42:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "e917182a42",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:e917182a42:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "25ApparentNet_ValueasNumber"
+    }
+  },
+  "13VOLTAGEL2N_ValueasNumber -\u003e modbus:data:5c69f83623:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "5c69f83623",
+          "number"
+        ],
+        "uid": "modbus:data:5c69f83623:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "ZWaveSerialController_FramesAcknowledged -\u003e zwave:serial_zstick:c7bc02808a:serial_ack": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "c7bc02808a",
+          "serial_ack"
+        ],
+        "uid": "zwave:serial_zstick:c7bc02808a:serial_ack"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveSerialController_FramesAcknowledged"
+    }
+  },
+  "26_ACTIVE_NET_L1 -\u003e modbus:data:ee23f9b529:08a8de9081:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "ee23f9b529",
+          "08a8de9081",
+          "number"
+        ],
+        "uid": "modbus:data:ee23f9b529:08a8de9081:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "26_ACTIVE_NET_L1"
+    }
+  },
+  "30_REACTIVE_IMPORT_KVARH -\u003e modbus:data:3ce0ba7637:a7f60b3619:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3ce0ba7637",
+          "a7f60b3619",
+          "number"
+        ],
+        "uid": "modbus:data:3ce0ba7637:a7f60b3619:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_REACTIVE_IMPORT_KVARH"
+    }
+  },
+  "27Apparentimport_ValueasNumber -\u003e modbus:data:34cb46a136:582483eb5e:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "582483eb5e",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:582483eb5e:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Apparentimport_ValueasNumber"
+    }
+  },
+  "28ACTIVENETL1_ValueasNumber -\u003e modbus:data:23588473e6:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "23588473e6",
+          "number"
+        ],
+        "uid": "modbus:data:23588473e6:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "07FREQUENCY_ValueasNumber -\u003e modbus:data:855508b51a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "855508b51a",
+          "number"
+        ],
+        "uid": "modbus:data:855508b51a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07FREQUENCY_ValueasNumber"
+    }
+  },
+  "28PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:706c297ab7:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "706c297ab7",
+          "number"
+        ],
+        "uid": "modbus:data:706c297ab7:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "ZWaveNode006MotionSensor_Sensorluminance -\u003e zwave:device:741c6937af:node6:sensor_luminance": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "sensor_luminance"
+        ],
+        "uid": "zwave:device:741c6937af:node6:sensor_luminance"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006MotionSensor_Sensorluminance"
+    }
+  },
+  "13_APARENT_IMPORT_KVAH -\u003e modbus:data:7e6d2e2942:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "7e6d2e2942",
+          "number"
+        ],
+        "uid": "modbus:data:7e6d2e2942:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_APARENT_IMPORT_KVAH"
+    }
+  },
+  "28REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:710cca7546:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "710cca7546",
+          "number"
+        ],
+        "uid": "modbus:data:710cca7546:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "04PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:39a555c7ab:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "39a555c7ab",
+          "number"
+        ],
+        "uid": "modbus:data:39a555c7ab:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "30_ACTIVE_IMPORT_KWH -\u003e modbus:data:3ce0ba7637:73ebbf63b4:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3ce0ba7637",
+          "73ebbf63b4",
+          "number"
+        ],
+        "uid": "modbus:data:3ce0ba7637:73ebbf63b4:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "25_APARENT_IMPORT_KVAH -\u003e modbus:data:c2308708e6:e6f83f1510:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "e6f83f1510",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:e6f83f1510:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_APARENT_IMPORT_KVAH"
+    }
+  },
+  "10VOLTAGEL2N_ValueasNumber -\u003e modbus:data:3cc14faa48:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3cc14faa48",
+          "number"
+        ],
+        "uid": "modbus:data:3cc14faa48:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "28VOLTAGEL2N_ValueasNumber -\u003e modbus:data:5c3c92034b:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "5c3c92034b",
+          "number"
+        ],
+        "uid": "modbus:data:5c3c92034b:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "ZWaveNode006MotionSensor_BinarySensor -\u003e zwave:device:741c6937af:node6:sensor_binary": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "sensor_binary"
+        ],
+        "uid": "zwave:device:741c6937af:node6:sensor_binary"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:follow"
+        }
+      },
+      "itemName": "ZWaveNode006MotionSensor_BinarySensor"
+    }
+  },
+  "25ActiveImportCO2_ValueasNumber -\u003e modbus:data:c2308708e6:1a1ba73011:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "1a1ba73011",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:1a1ba73011:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "25ActiveImportCO2_ValueasNumber"
+    }
+  },
+  "25VOLTAGEL2N_ValueasNumber -\u003e modbus:data:1ebfe3e6d0:04703124c8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1ebfe3e6d0",
+          "04703124c8",
+          "number"
+        ],
+        "uid": "modbus:data:1ebfe3e6d0:04703124c8:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "27Reactiveexport_ValueasNumber -\u003e modbus:data:34cb46a136:2e457da9f8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "2e457da9f8",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:2e457da9f8:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Reactiveexport_ValueasNumber"
+    }
+  },
+  "30_REACTIVE_EXPORT_TRAFFI_KVARH -\u003e modbus:data:cd7b8e391a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "cd7b8e391a",
+          "number"
+        ],
+        "uid": "modbus:data:cd7b8e391a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_REACTIVE_EXPORT_TRAFFI_KVARH"
+    }
+  },
+  "13PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:07186b4766:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "07186b4766",
+          "number"
+        ],
+        "uid": "modbus:data:07186b4766:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "25ReactiveImport_ValueasNumber -\u003e modbus:data:c2308708e6:83eac3cc9d:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "83eac3cc9d",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:83eac3cc9d:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ReactiveImport_ValueasNumber"
+    }
+  },
+  "10VOLTAGEL1N_ValueasNumber -\u003e modbus:data:3de5aea3a6:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3de5aea3a6",
+          "number"
+        ],
+        "uid": "modbus:data:3de5aea3a6:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "10ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:f24db4817b:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f24db4817b",
+          "number"
+        ],
+        "uid": "modbus:data:f24db4817b:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "04ACTIVEIMPORTKWH_ValueasNumber -\u003e modbus:data:64c45cfce0:411acf011d:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "64c45cfce0",
+          "411acf011d",
+          "number"
+        ],
+        "uid": "modbus:data:64c45cfce0:411acf011d:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04ACTIVEIMPORTKWH_ValueasNumber"
+    }
+  },
+  "ZWaveNode006MotionSensor_TamperAlarm -\u003e zwave:device:741c6937af:node6:alarm_tamper": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "alarm_tamper"
+        ],
+        "uid": "zwave:device:741c6937af:node6:alarm_tamper"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006MotionSensor_TamperAlarm"
+    }
+  },
+  "04APARENTIMPORTKVAH_ValueasNumber -\u003e modbus:data:bc9fbefdde:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "bc9fbefdde",
+          "number"
+        ],
+        "uid": "modbus:data:bc9fbefdde:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04APARENTIMPORTKVAH_ValueasNumber"
+    }
+  },
+  "27VOLTAGEL2N_ValueasNumber -\u003e modbus:data:fd1f07a62b:e95a520cf7:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fd1f07a62b",
+          "e95a520cf7",
+          "number"
+        ],
+        "uid": "modbus:data:fd1f07a62b:e95a520cf7:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "04ACTIVENETL1_ValueasNumber -\u003e modbus:data:d490cd2dfa:106ff12d95:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "d490cd2dfa",
+          "106ff12d95",
+          "number"
+        ],
+        "uid": "modbus:data:d490cd2dfa:106ff12d95:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "27ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:f4ba53ddbc:9c324de92a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f4ba53ddbc",
+          "9c324de92a",
+          "number"
+        ],
+        "uid": "modbus:data:f4ba53ddbc:9c324de92a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "SinglePhaseMeter_ACTotalCurrentValue -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-total-current": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acGeneral#ac-total-current"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-total-current"
+      },
+      "configuration": {
+        "properties": {
+          "offset": "0",
+          "profile": "system:offset"
+        }
+      },
+      "itemName": "SinglePhaseMeter_ACTotalCurrentValue"
+    }
+  },
+  "01REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:c62cabf413:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c62cabf413",
+          "number"
+        ],
+        "uid": "modbus:data:c62cabf413:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "27VOLTAGEL1N_ValueasNumber -\u003e modbus:data:fd1f07a62b:32928a54e4:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fd1f07a62b",
+          "32928a54e4",
+          "number"
+        ],
+        "uid": "modbus:data:fd1f07a62b:32928a54e4:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "ZWaveNode006MotionSensor_BatteryLevel -\u003e zwave:device:741c6937af:node6:battery-level": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "battery-level"
+        ],
+        "uid": "zwave:device:741c6937af:node6:battery-level"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006MotionSensor_BatteryLevel"
+    }
+  },
+  "27Apparentexport_ValueasNumber -\u003e modbus:data:34cb46a136:0d405107b8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "0d405107b8",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:0d405107b8:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Apparentexport_ValueasNumber"
+    }
+  },
+  "10ACTIVENETL1_ValueasNumber -\u003e modbus:data:2f98fe03d2:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "2f98fe03d2",
+          "number"
+        ],
+        "uid": "modbus:data:2f98fe03d2:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "13_REACTIVE_IMPORT_KVARH -\u003e modbus:data:e51fcfaea2:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "e51fcfaea2",
+          "number"
+        ],
+        "uid": "modbus:data:e51fcfaea2:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_REACTIVE_IMPORT_KVARH"
+    }
+  },
+  "26_APPARENT_IMPORT_KVAH -\u003e modbus:data:f57bbd59d3:42a5dc6a4f:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "42a5dc6a4f",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:42a5dc6a4f:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26_APPARENT_IMPORT_KVAH"
+    }
+  },
+  "27PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:f4ba53ddbc:b0d87649ab:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f4ba53ddbc",
+          "b0d87649ab",
+          "number"
+        ],
+        "uid": "modbus:data:f4ba53ddbc:b0d87649ab:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "13_ACTIVE_EXPORT_KWH -\u003e modbus:data:7b5dee1e08:e092168a30:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "7b5dee1e08",
+          "e092168a30",
+          "number"
+        ],
+        "uid": "modbus:data:7b5dee1e08:e092168a30:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "ModbusData25_ValueasNumber -\u003e modbus:data:0288fe8098:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "0288fe8098",
+          "number"
+        ],
+        "uid": "modbus:data:0288fe8098:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "ModbusData25_ValueasNumber"
+    }
+  },
+  "29_APPARENT_EXPORT_KVARH -\u003e modbus:data:38378de355:3a6c53b9fe:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "38378de355",
+          "3a6c53b9fe",
+          "number"
+        ],
+        "uid": "modbus:data:38378de355:3a6c53b9fe:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29_APPARENT_EXPORT_KVARH"
+    }
+  },
+  "10FREQUENCY_ValueasNumber -\u003e modbus:data:afdf14746a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "afdf14746a",
+          "number"
+        ],
+        "uid": "modbus:data:afdf14746a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10FREQUENCY_ValueasNumber"
+    }
+  },
+  "ZWaveNode004HS2SKZSmartMeteringPlug_Switch -\u003e zwave:device:741c6937af:node4:switch_binary": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node4",
+          "switch_binary"
+        ],
+        "uid": "zwave:device:741c6937af:node4:switch_binary"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004HS2SKZSmartMeteringPlug_Switch"
+    }
+  },
+  "27Activenet_ValueasNumber -\u003e modbus:data:34cb46a136:7684945f03:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "7684945f03",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:7684945f03:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Activenet_ValueasNumber"
+    }
+  },
+  "28ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:0fe4d2c215:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "0fe4d2c215",
+          "number"
+        ],
+        "uid": "modbus:data:0fe4d2c215:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "25_REACTIVE_IMPORT_KVARH -\u003e modbus:data:c2308708e6:45e0065268:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "45e0065268",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:45e0065268:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_REACTIVE_IMPORT_KVARH"
+    }
+  },
+  "27_ACTIVE_EXPORT_KWH -\u003e modbus:data:53bab0df9b:f5e31b8190:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "53bab0df9b",
+          "f5e31b8190",
+          "number"
+        ],
+        "uid": "modbus:data:53bab0df9b:f5e31b8190:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "27_APARENT_IMPORT_KVAH -\u003e modbus:data:34cb46a136:67ccd636ba:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "67ccd636ba",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:67ccd636ba:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27_APARENT_IMPORT_KVAH"
+    }
+  },
+  "10APARENTIMPORTKVAH_ValueasNumber -\u003e modbus:data:f64de62dec:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f64de62dec",
+          "number"
+        ],
+        "uid": "modbus:data:f64de62dec:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10APARENTIMPORTKVAH_ValueasNumber"
+    }
+  },
+  "30VOLTAGEL2N_ValueasNumber -\u003e modbus:data:fbc888aad3:c288927946:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fbc888aad3",
+          "c288927946",
+          "number"
+        ],
+        "uid": "modbus:data:fbc888aad3:c288927946:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "transform:JS",
+          "function": "VOLTAGE_L2_N.js"
+        }
+      },
+      "itemName": "30VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "31_APPARENT_EXPORT_KVAH -\u003e modbus:data:30ecf1083a:ab574eee15:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "30ecf1083a",
+          "ab574eee15",
+          "number"
+        ],
+        "uid": "modbus:data:30ecf1083a:ab574eee15:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31_APPARENT_EXPORT_KVAH"
+    }
+  },
+  "25VOLTAGEL1N_ValueasNumber -\u003e modbus:data:1ebfe3e6d0:be4a29add3:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1ebfe3e6d0",
+          "be4a29add3",
+          "number"
+        ],
+        "uid": "modbus:data:1ebfe3e6d0:be4a29add3:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "25PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:9479c2f2ec:3dce359733:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9479c2f2ec",
+          "3dce359733",
+          "number"
+        ],
+        "uid": "modbus:data:9479c2f2ec:3dce359733:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "25ReactiveExport_ValueasNumber -\u003e modbus:data:c2308708e6:6518fe4ea8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "6518fe4ea8",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:6518fe4ea8:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ReactiveExport_ValueasNumber"
+    }
+  },
+  "04VOLTAGEL1N_ValueasNumber -\u003e modbus:data:aae25bd7cc:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "aae25bd7cc",
+          "number"
+        ],
+        "uid": "modbus:data:aae25bd7cc:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "30VOLTAGEL1N_ValueasNumber -\u003e modbus:data:e5df4fd631:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "e5df4fd631",
+          "number"
+        ],
+        "uid": "modbus:data:e5df4fd631:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "transform:JS",
+          "function": "VOLTAGE_L1_N.js"
+        }
+      },
+      "itemName": "30VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "13_APARENT_EXPORT_KVAH -\u003e modbus:data:c0d16a755e:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c0d16a755e",
+          "number"
+        ],
+        "uid": "modbus:data:c0d16a755e:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_APARENT_EXPORT_KVAH"
+    }
+  },
+  "01VOLTAGEL1N_ValueasNumber -\u003e modbus:data:68496032b6:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "68496032b6",
+          "number"
+        ],
+        "uid": "modbus:data:68496032b6:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "31_ACTIVE_EXPORT_KWH -\u003e modbus:data:30ecf1083a:8c5aba8679:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "30ecf1083a",
+          "8c5aba8679",
+          "number"
+        ],
+        "uid": "modbus:data:30ecf1083a:8c5aba8679:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "01ACTIVENETL1_ValueasNumber -\u003e modbus:data:37e3b4519a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "37e3b4519a",
+          "number"
+        ],
+        "uid": "modbus:data:37e3b4519a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "04VOLTAGEL2N_ValueasNumber -\u003e modbus:data:3e4fd0535a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3e4fd0535a",
+          "number"
+        ],
+        "uid": "modbus:data:3e4fd0535a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "ModbusData_LastErroringRead -\u003e modbus:data:34cb46a136:74dd318e94:lastReadError": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "lastReadError"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:lastReadError"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:timestamp-change"
+        }
+      },
+      "itemName": "ModbusData_LastErroringRead"
+    }
+  },
+  "ZWaveNode006MotionSensor_MotionAlarm -\u003e zwave:device:741c6937af:node6:alarm_motion": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "alarm_motion"
+        ],
+        "uid": "zwave:device:741c6937af:node6:alarm_motion"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006MotionSensor_MotionAlarm"
+    }
+  },
+  "ZWaveNode004HS2SKZSmartMeteringPlug_Electricmeterwatts -\u003e zwave:device:741c6937af:node4:meter_watts": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node4",
+          "meter_watts"
+        ],
+        "uid": "zwave:device:741c6937af:node4:meter_watts"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004HS2SKZSmartMeteringPlug_Electricmeterwatts"
+    }
+  },
+  "01APARENTIMPORTKVAH_ValueasNumber -\u003e modbus:data:e34735c66c:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "e34735c66c",
+          "number"
+        ],
+        "uid": "modbus:data:e34735c66c:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01APARENTIMPORTKVAH_ValueasNumber"
+    }
+  },
+  "07VOLTAGEL1N_ValueasNumber -\u003e modbus:data:bd497b8858:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "bd497b8858",
+          "number"
+        ],
+        "uid": "modbus:data:bd497b8858:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "26_APPARENT_NET_KVAH -\u003e modbus:data:f57bbd59d3:1b17f0d8d9:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "1b17f0d8d9",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:1b17f0d8d9:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "26_APPARENT_NET_KVAH"
+    }
+  },
+  "27_ACTIVE_IMPORT_KWH -\u003e modbus:data:34cb46a136:c611c10a88:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "c611c10a88",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:c611c10a88:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "29FREQUENCY_ValueasNumber -\u003e modbus:data:38378de355:a156a1d1bf:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "38378de355",
+          "a156a1d1bf",
+          "number"
+        ],
+        "uid": "modbus:data:38378de355:a156a1d1bf:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29FREQUENCY_ValueasNumber"
+    }
+  },
+  "01ACTIVEIMPORTKWH_ValueasNumber -\u003e modbus:data:b18e1ed3eb:350e3ffb77:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "b18e1ed3eb",
+          "350e3ffb77",
+          "number"
+        ],
+        "uid": "modbus:data:b18e1ed3eb:350e3ffb77:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01ACTIVEIMPORTKWH_ValueasNumber"
+    }
+  },
+  "29VOLTAGEL2N_ValueasNumber -\u003e modbus:data:42ea6cd0ae:67a03f94f9:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "42ea6cd0ae",
+          "67a03f94f9",
+          "number"
+        ],
+        "uid": "modbus:data:42ea6cd0ae:67a03f94f9:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "27REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:34cb46a136:dbf29ad3b1:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "dbf29ad3b1",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:dbf29ad3b1:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "27REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "26_ACTIVE_EXPORT_KWH -\u003e modbus:data:f57bbd59d3:6406bd6fcc:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "6406bd6fcc",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:6406bd6fcc:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "ModbusData_ValueasString -\u003e modbus:data:34cb46a136:74dd318e94:string": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "string"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:string"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:timestamp-change"
+        }
+      },
+      "itemName": "ModbusData_ValueasString"
+    }
+  },
+  "SinglePhaseMeter_TotalRealPowerValue -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-total-real-power": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acGeneral#ac-total-real-power"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-total-real-power"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "SinglePhaseMeter_TotalRealPowerValue"
+    }
+  },
+  "07ACTIVEIMPORTKWH_ValueasNumber -\u003e modbus:data:ab4d26cbca:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "ab4d26cbca",
+          "number"
+        ],
+        "uid": "modbus:data:ab4d26cbca:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07ACTIVEIMPORTKWH_ValueasNumber"
+    }
+  },
+  "26VOLTAGEL1N_ValueasNumber -\u003e modbus:data:70d53fe14d:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "70d53fe14d",
+          "number"
+        ],
+        "uid": "modbus:data:70d53fe14d:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "29_REACTIVE_EXPORT_TRAFFI_KVARH -\u003e modbus:data:141533643e:a03bfefb90:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "141533643e",
+          "a03bfefb90",
+          "number"
+        ],
+        "uid": "modbus:data:141533643e:a03bfefb90:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29_REACTIVE_EXPORT_TRAFFI_KVARH"
+    }
+  },
+  "ZWaveNode006MotionSensor_Alarmgeneral -\u003e zwave:device:741c6937af:node6:alarm_general": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "alarm_general"
+        ],
+        "uid": "zwave:device:741c6937af:node6:alarm_general"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:follow"
+        }
+      },
+      "itemName": "ZWaveNode006MotionSensor_Alarmgeneral"
+    }
+  },
+  "01ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:2686dea1c3:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "2686dea1c3",
+          "number"
+        ],
+        "uid": "modbus:data:2686dea1c3:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "31PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:30ecf1083a:2078790913:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "30ecf1083a",
+          "2078790913",
+          "number"
+        ],
+        "uid": "modbus:data:30ecf1083a:2078790913:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "04REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:58a47c4408:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "58a47c4408",
+          "number"
+        ],
+        "uid": "modbus:data:58a47c4408:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "27Reactivenet_ValueasNumber -\u003e modbus:data:34cb46a136:09f8bdd0f0:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "09f8bdd0f0",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:09f8bdd0f0:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Reactivenet_ValueasNumber"
+    }
+  },
+  "ZWaveNode006MotionSensor_Sensorseismicintensity -\u003e zwave:device:741c6937af:node6:sensor_seismicintensity": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "sensor_seismicintensity"
+        ],
+        "uid": "zwave:device:741c6937af:node6:sensor_seismicintensity"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006MotionSensor_Sensorseismicintensity"
+    }
+  },
+  "29VOLTAGEL1N_ValueasNumber -\u003e modbus:data:42ea6cd0ae:60cec9136d:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "42ea6cd0ae",
+          "60cec9136d",
+          "number"
+        ],
+        "uid": "modbus:data:42ea6cd0ae:60cec9136d:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "26_REACTIVE_IMPORT_KVARH_ValueasContact -\u003e modbus:data:f57bbd59d3:76f3f692fa:lastReadSuccess": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "76f3f692fa",
+          "lastReadSuccess"
+        ],
+        "uid": "modbus:data:f57bbd59d3:76f3f692fa:lastReadSuccess"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "26_REACTIVE_IMPORT_KVARH_ValueasContact"
+    }
+  },
+  "25ActiveimportCurrency_ValueasNumber -\u003e modbus:data:c2308708e6:f5c9c7a440:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "f5c9c7a440",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:f5c9c7a440:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "25ActiveimportCurrency_ValueasNumber"
+    }
+  },
+  "27ActiveimportCO2_ValueasNumber -\u003e modbus:data:34cb46a136:4287716f7b:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "4287716f7b",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:4287716f7b:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27ActiveimportCO2_ValueasNumber"
+    }
+  },
+  "07ACTIVENETL1_ValueasNumber -\u003e modbus:data:9a3443fc19:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9a3443fc19",
+          "number"
+        ],
+        "uid": "modbus:data:9a3443fc19:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "SinglePhaseMeter_AverageLineToNeutralACVoltage -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-average-voltage-to-n": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acGeneral#ac-average-voltage-to-n"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-average-voltage-to-n"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "SinglePhaseMeter_AverageLineToNeutralACVoltage"
+    }
+  },
+  "04FREQUENCY_ValueasNumber -\u003e modbus:data:2856183e54:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "2856183e54",
+          "number"
+        ],
+        "uid": "modbus:data:2856183e54:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04FREQUENCY_ValueasNumber"
+    }
+  },
+  "SinglePhaseMeter_RealEnergyImported -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acPhaseA#ac-imported-real-energy": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acPhaseA#ac-imported-real-energy"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acPhaseA#ac-imported-real-energy"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "SinglePhaseMeter_RealEnergyImported"
+    }
+  },
+  "29_APPARENT_IMPORT_KVAH -\u003e modbus:data:141533643e:2714e06dd8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "141533643e",
+          "2714e06dd8",
+          "number"
+        ],
+        "uid": "modbus:data:141533643e:2714e06dd8:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29_APPARENT_IMPORT_KVAH"
+    }
+  },
+  "25_REACTIVE_EXPORT_TRAFFI_KVARH -\u003e modbus:data:9479c2f2ec:04e0eff944:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9479c2f2ec",
+          "04e0eff944",
+          "number"
+        ],
+        "uid": "modbus:data:9479c2f2ec:04e0eff944:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_REACTIVE_EXPORT_TRAFFI_KVARH"
+    }
+  },
+  "ModbusData_LastSuccessfulRead -\u003e modbus:data:34cb46a136:74dd318e94:lastReadSuccess": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "lastReadSuccess"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:lastReadSuccess"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:timestamp-change"
+        }
+      },
+      "itemName": "ModbusData_LastSuccessfulRead"
+    }
+  },
+  "27Apparentnet_ValueasNumber -\u003e modbus:data:34cb46a136:f75b1e9014:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "f75b1e9014",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:f75b1e9014:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Apparentnet_ValueasNumber"
+    }
+  },
+  "25ActiveNet_ValueasNumber -\u003e modbus:data:0f313be7f4:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "0f313be7f4",
+          "number"
+        ],
+        "uid": "modbus:data:0f313be7f4:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ActiveNet_ValueasNumber"
+    }
+  },
+  "30_ACTIVE_EXPORT_KWH -\u003e modbus:data:7536397dce:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "7536397dce",
+          "number"
+        ],
+        "uid": "modbus:data:7536397dce:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "04ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:c72c86045d:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c72c86045d",
+          "number"
+        ],
+        "uid": "modbus:data:c72c86045d:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "04ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "SinglePhaseMeter_ACPhaseCurrentValue -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acPhaseA#ac-phase-current": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acPhaseA#ac-phase-current"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acPhaseA#ac-phase-current"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "SinglePhaseMeter_ACPhaseCurrentValue"
+    }
+  },
+  "SinglePhaseMeter_AverageLineToLineACVoltage -\u003e modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-average-voltage-to-next": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "meter-single-phase",
+          "8e81c26dd6",
+          "2eee73b860",
+          "acGeneral#ac-average-voltage-to-next"
+        ],
+        "uid": "modbus:meter-single-phase:8e81c26dd6:2eee73b860:acGeneral#ac-average-voltage-to-next"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "SinglePhaseMeter_AverageLineToLineACVoltage"
+    }
+  },
+  "01PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:04348dbd06:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "04348dbd06",
+          "number"
+        ],
+        "uid": "modbus:data:04348dbd06:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "28VOLTAGEL1N_ValueasNumber -\u003e modbus:data:9a886e137a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9a886e137a",
+          "number"
+        ],
+        "uid": "modbus:data:9a886e137a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L1_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28VOLTAGEL1N_ValueasNumber"
+    }
+  },
+  "30_APARENT_NET_KVAH -\u003e modbus:data:291f22d7b3:19f5b8e778:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "291f22d7b3",
+          "19f5b8e778",
+          "number"
+        ],
+        "uid": "modbus:data:291f22d7b3:19f5b8e778:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "30_APARENT_NET_KVAH"
+    }
+  },
+  "26_ACTIVE_NET_L1_dimmer -\u003e modbus:data:ee23f9b529:08a8de9081:dimmer": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "ee23f9b529",
+          "08a8de9081",
+          "dimmer"
+        ],
+        "uid": "modbus:data:ee23f9b529:08a8de9081:dimmer"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "26_ACTIVE_NET_L1_dimmer"
+    }
+  },
+  "30_APARENT_IMPORT_KVAH -\u003e modbus:data:3ce0ba7637:82142571e2:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3ce0ba7637",
+          "82142571e2",
+          "number"
+        ],
+        "uid": "modbus:data:3ce0ba7637:82142571e2:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_APARENT_IMPORT_KVAH"
+    }
+  },
+  "13_REACTIVE_EXPORT_TRAFFI_KVARH -\u003e modbus:data:d1ac20ec1e:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "d1ac20ec1e",
+          "number"
+        ],
+        "uid": "modbus:data:d1ac20ec1e:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_REACTIVE_EXPORT_TRAFFI_KVARH"
+    }
+  },
+  "10ACTIVEIMPORTKWH_ValueasNumber -\u003e modbus:data:fa3684532a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fa3684532a",
+          "number"
+        ],
+        "uid": "modbus:data:fa3684532a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10ACTIVEIMPORTKWH_ValueasNumber"
+    }
+  },
+  "10REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:9cd238fe14:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9cd238fe14",
+          "number"
+        ],
+        "uid": "modbus:data:9cd238fe14:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "29_ACTIVE_IMPORT_KWH -\u003e modbus:data:141533643e:d8d23153c2:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "141533643e",
+          "d8d23153c2",
+          "number"
+        ],
+        "uid": "modbus:data:141533643e:d8d23153c2:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "31VOLTAGEL2N_ValueasNumber -\u003e modbus:data:30ecf1083a:959222d080:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "30ecf1083a",
+          "959222d080",
+          "number"
+        ],
+        "uid": "modbus:data:30ecf1083a:959222d080:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "13ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:876164df03:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "876164df03",
+          "number"
+        ],
+        "uid": "modbus:data:876164df03:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "29ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:38378de355:5facf758f8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "38378de355",
+          "5facf758f8",
+          "number"
+        ],
+        "uid": "modbus:data:38378de355:5facf758f8:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "25_ACTIVE_IMPORT_KWH -\u003e modbus:data:c2308708e6:fe4b826678:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "fe4b826678",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:fe4b826678:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "30ACTIVENETKWH_ValueasNumber -\u003e modbus:data:3ce0ba7637:9e220d5c21:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "3ce0ba7637",
+          "9e220d5c21",
+          "number"
+        ],
+        "uid": "modbus:data:3ce0ba7637:9e220d5c21:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30ACTIVENETKWH_ValueasNumber"
+    }
+  },
+  "25ACTIVENETKVAH_ValueasNumber -\u003e modbus:data:c2308708e6:fff01d79a8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "fff01d79a8",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:fff01d79a8:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ACTIVENETKVAH_ValueasNumber"
+    }
+  },
+  "ZWaveNode006Motionsensor_Sensortemperature -\u003e zwave:device:741c6937af:node6:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:741c6937af:node6:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006Motionsensor_Sensortemperature"
+    }
+  },
+  "26VOLTAGEL2N_ValueasNumber -\u003e modbus:data:c2f036f09f:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2f036f09f",
+          "number"
+        ],
+        "uid": "modbus:data:c2f036f09f:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "25ActiveExport_ValueasNumber -\u003e modbus:data:c2308708e6:a9774269a5:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "a9774269a5",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:a9774269a5:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ActiveExport_ValueasNumber"
+    }
+  },
+  "25_ACTIVE_EXPORT_KWH -\u003e modbus:data:4d687ac3d5:462cccfe14:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "4d687ac3d5",
+          "462cccfe14",
+          "number"
+        ],
+        "uid": "modbus:data:4d687ac3d5:462cccfe14:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "25_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "28ACTIVEIMPORTKWH_ValueasNumber -\u003e modbus:data:eb5ec6d644:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "eb5ec6d644",
+          "number"
+        ],
+        "uid": "modbus:data:eb5ec6d644:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28ACTIVEIMPORTKWH_ValueasNumber"
+    }
+  },
+  "31REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:819c05a5f2:98cb2af4ba:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "819c05a5f2",
+          "98cb2af4ba",
+          "number"
+        ],
+        "uid": "modbus:data:819c05a5f2:98cb2af4ba:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "ZWaveNode006_MotionAlarm -\u003e zwave:device:741c6937af:node6:alarm_motion": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "741c6937af",
+          "node6",
+          "alarm_motion"
+        ],
+        "uid": "zwave:device:741c6937af:node6:alarm_motion"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006_MotionAlarm"
+    }
+  },
+  "ModbusData_LastSuccessfulRead -\u003e modbus:data:34cb46a136:74dd318e94:dimmer": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "dimmer"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:dimmer"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:timestamp-change"
+        }
+      },
+      "itemName": "ModbusData_LastSuccessfulRead"
+    }
+  },
+  "07APARENTIMPORTKVAH_ValueasNumber -\u003e modbus:data:c2eb628fe0:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2eb628fe0",
+          "number"
+        ],
+        "uid": "modbus:data:c2eb628fe0:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07APARENTIMPORTKVAH_ValueasNumber"
+    }
+  },
+  "27Activeexport_ValueasNumber -\u003e modbus:data:34cb46a136:982f273e6f:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "982f273e6f",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:982f273e6f:number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "27Activeexport_ValueasNumber"
+    }
+  },
+  "01FREQUENCY_ValueasNumber -\u003e modbus:data:93bc15b413:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "93bc15b413",
+          "number"
+        ],
+        "uid": "modbus:data:93bc15b413:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "01FREQUENCY_ValueasNumber"
+    }
+  },
+  "28FREQUENCY_ValueasNumber -\u003e modbus:data:fa655d5ab0:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fa655d5ab0",
+          "number"
+        ],
+        "uid": "modbus:data:fa655d5ab0:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "FREQUENCY.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28FREQUENCY_ValueasNumber"
+    }
+  },
+  "30_APARENT_EXPORT_KVAH -\u003e modbus:data:fbc888aad3:a073dd6292:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "fbc888aad3",
+          "a073dd6292",
+          "number"
+        ],
+        "uid": "modbus:data:fbc888aad3:a073dd6292:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "30_APARENT_EXPORT_KVAH"
+    }
+  },
+  "31_REACTIVE_EXPORT_TRAFFI_KVARH -\u003e modbus:data:0afc8e5706:cb7c03bc51:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "0afc8e5706",
+          "cb7c03bc51",
+          "number"
+        ],
+        "uid": "modbus:data:0afc8e5706:cb7c03bc51:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31_REACTIVE_EXPORT_TRAFFI_KVARH"
+    }
+  },
+  "29_ACTIVE_EXPORT_KWH -\u003e modbus:data:802bbb2dcc:cdae826aee:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "802bbb2dcc",
+          "cdae826aee",
+          "number"
+        ],
+        "uid": "modbus:data:802bbb2dcc:cdae826aee:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "29_ACTIVE_EXPORT_KWH"
+    }
+  },
+  "27Reactiveimport_ValueasNumber -\u003e modbus:data:34cb46a136:da2aa09270:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "da2aa09270",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:da2aa09270:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "27Reactiveimport_ValueasNumber"
+    }
+  },
+  "07ACTIVEPOWERL1_ValueasNumber -\u003e modbus:data:9a1e414f07:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "9a1e414f07",
+          "number"
+        ],
+        "uid": "modbus:data:9a1e414f07:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_POWER_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07ACTIVEPOWERL1_ValueasNumber"
+    }
+  },
+  "07VOLTAGEL2N_ValueasNumber -\u003e modbus:data:5ea7169ae6:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "5ea7169ae6",
+          "number"
+        ],
+        "uid": "modbus:data:5ea7169ae6:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "VOLTAGE_L2_N.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07VOLTAGEL2N_ValueasNumber"
+    }
+  },
+  "ModbusData25_LastSuccessfulRead -\u003e modbus:data:0288fe8098:lastReadSuccess": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "0288fe8098",
+          "lastReadSuccess"
+        ],
+        "uid": "modbus:data:0288fe8098:lastReadSuccess"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ModbusData25_LastSuccessfulRead"
+    }
+  },
+  "07REACTIVEIMPORTKVARH_ValueasNumber -\u003e modbus:data:1ac5e12e75:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1ac5e12e75",
+          "number"
+        ],
+        "uid": "modbus:data:1ac5e12e75:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_IMPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07REACTIVEIMPORTKVARH_ValueasNumber"
+    }
+  },
+  "ZWaveSerialController_OOFBytesReceived -\u003e zwave:serial_zstick:c7bc02808a:serial_oof": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "c7bc02808a",
+          "serial_oof"
+        ],
+        "uid": "zwave:serial_zstick:c7bc02808a:serial_oof"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveSerialController_OOFBytesReceived"
+    }
+  },
+  "26PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:1666aef834:a2ed8301b8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "1666aef834",
+          "a2ed8301b8",
+          "number"
+        ],
+        "uid": "modbus:data:1666aef834:a2ed8301b8:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "26_ACTIVE_IMPORT_KWH -\u003e modbus:data:f57bbd59d3:0dd3d89ff6:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "0dd3d89ff6",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:0dd3d89ff6:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "31ACTIVENETL1_ValueasNumber -\u003e modbus:data:dd51ff7a1f:bebf415cc5:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "dd51ff7a1f",
+          "bebf415cc5",
+          "number"
+        ],
+        "uid": "modbus:data:dd51ff7a1f:bebf415cc5:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_NET_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31ACTIVENETL1_ValueasNumber"
+    }
+  },
+  "26_REACTIVE_EXPORT_TRARIFF1_KVARH -\u003e modbus:data:f57bbd59d3:76f3f692fa:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "76f3f692fa",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:76f3f692fa:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "REACTIVE_EXPORT_KVARH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26_REACTIVE_EXPORT_TRARIFF1_KVARH"
+    }
+  },
+  "28APARENTIMPORTKVAH_ValueasNumber -\u003e modbus:data:4c4ab1fe39:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "4c4ab1fe39",
+          "number"
+        ],
+        "uid": "modbus:data:4c4ab1fe39:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "28APARENTIMPORTKVAH_ValueasNumber"
+    }
+  },
+  "10PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:76de297e1a:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "76de297e1a",
+          "number"
+        ],
+        "uid": "modbus:data:76de297e1a:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "10PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "ZWaveSerialController_ReceivedChecksumErrors -\u003e zwave:serial_zstick:c7bc02808a:serial_cse": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "c7bc02808a",
+          "serial_cse"
+        ],
+        "uid": "zwave:serial_zstick:c7bc02808a:serial_cse"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveSerialController_ReceivedChecksumErrors"
+    }
+  },
+  "07PHASEANGLEVOLTAGEL1_ValueasNumber -\u003e modbus:data:13eae2b26b:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "13eae2b26b",
+          "number"
+        ],
+        "uid": "modbus:data:13eae2b26b:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "PHASE_ANGLE_VOLTAGE_L1.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "07PHASEANGLEVOLTAGEL1_ValueasNumber"
+    }
+  },
+  "31_ACTIVE_IMPORT_KWH -\u003e modbus:data:819c05a5f2:12e015a48c:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "819c05a5f2",
+          "12e015a48c",
+          "number"
+        ],
+        "uid": "modbus:data:819c05a5f2:12e015a48c:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31_ACTIVE_IMPORT_KWH"
+    }
+  },
+  "ZWaveSerialController_StartFrames -\u003e zwave:serial_zstick:c7bc02808a:serial_sof": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "c7bc02808a",
+          "serial_sof"
+        ],
+        "uid": "zwave:serial_zstick:c7bc02808a:serial_sof"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveSerialController_StartFrames"
+    }
+  },
+  "31_APPARENT_IMPORT_KVAH -\u003e modbus:data:819c05a5f2:24a2da552e:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "819c05a5f2",
+          "24a2da552e",
+          "number"
+        ],
+        "uid": "modbus:data:819c05a5f2:24a2da552e:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "APPARENT_IMPORT_KVAH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "31_APPARENT_IMPORT_KVAH"
+    }
+  },
+  "25ApparentImport_ValueasNumber -\u003e modbus:data:c2308708e6:ef58a614a9:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "ef58a614a9",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:ef58a614a9:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ApparentImport_ValueasNumber"
+    }
+  },
+  "ModbusData_ValueasDimmer -\u003e modbus:data:34cb46a136:74dd318e94:dimmer": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "dimmer"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:dimmer"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:timestamp-change"
+        }
+      },
+      "itemName": "ModbusData_ValueasDimmer"
+    }
+  },
+  "ModbusData_ValueasNumber -\u003e modbus:data:34cb46a136:74dd318e94:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "34cb46a136",
+          "74dd318e94",
+          "number"
+        ],
+        "uid": "modbus:data:34cb46a136:74dd318e94:number"
+      },
+      "configuration": {
+        "properties": {
+          "offset": "1",
+          "profile": "system:default"
+        }
+      },
+      "itemName": "ModbusData_ValueasNumber"
+    }
+  },
+  "25ApparentExport_ValueasNumber -\u003e modbus:data:c2308708e6:ef313402e9:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c2308708e6",
+          "ef313402e9",
+          "number"
+        ],
+        "uid": "modbus:data:c2308708e6:ef313402e9:number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "25ApparentExport_ValueasNumber"
+    }
+  },
+  "26_APARENT_EXPORT_KVAH -\u003e modbus:data:f57bbd59d3:83b70e9ab8:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "f57bbd59d3",
+          "83b70e9ab8",
+          "number"
+        ],
+        "uid": "modbus:data:f57bbd59d3:83b70e9ab8:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "26_APARENT_EXPORT_KVAH"
+    }
+  },
+  "13_ACTIVE_IMPORT_KWH -\u003e modbus:data:c3457e54d2:9bd3433d80:number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "modbus",
+          "data",
+          "c3457e54d2",
+          "9bd3433d80",
+          "number"
+        ],
+        "uid": "modbus:data:c3457e54d2:9bd3433d80:number"
+      },
+      "configuration": {
+        "properties": {
+          "function": "ACTIVE_IMPORT_KWH.js",
+          "profile": "transform:JS"
+        }
+      },
+      "itemName": "13_ACTIVE_IMPORT_KWH"
+    }
+  }
+}

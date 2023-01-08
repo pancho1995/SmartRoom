@@ -1,0 +1,1259 @@
+{
+  "overview": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "overview",
+      "timestamp": "Jul 18, 2021, 7:57:38 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Overview"
+      },
+      "slots": {
+        "default": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-clock-card",
+                  "config": {}
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_APARENT_IMPORT_KVAH": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_APARENT_IMPORT_KVAH",
+      "timestamp": "Aug 22, 2021, 1:00:09 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30APARENTIMPORTKVAH_ValueasNumber"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_APARENT_IMPORT_KVAH",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30APARENTIMPORTKVAH_ValueasNumber",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              },
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_0426906299": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_0426906299",
+      "timestamp": "Aug 22, 2021, 12:07:40 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Meters",
+        "visibleTo": [
+          "role:administrator"
+        ],
+        "sidebar": true
+      },
+      "slots": {
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {
+              "title": "E-Meter_30"
+            },
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30ACTIVEIMPORTKWH_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30ACTIVEIMPORTKWH_ValueasNumber"
+                                ],
+                                "item": "30ACTIVEIMPORTKWH_ValueasNumber",
+                                "iconUseState": true,
+                                "title": "ACTIVE_IMPORT_KWH"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30ACTIVENETL1_ValueasNumber",
+                                "action": "analyzer",
+                                "item": "30ACTIVENETL1_ValueasNumber",
+                                "title": "ACTIVE_NET_L1",
+                                "actionAnalyzerItems": [
+                                  "30ACTIVENETL1_ValueasNumber"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30ACTIVEPOWERL1_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30ACTIVEPOWERL1_ValueasNumber"
+                                ],
+                                "item": "30ACTIVEPOWERL1_ValueasNumber",
+                                "title": "ACTIVE_POWER_L1"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30APARENTIMPORTKVAH_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30APARENTIMPORTKVAH_ValueasNumber"
+                                ],
+                                "item": "30APARENTIMPORTKVAH_ValueasNumber",
+                                "title": "APARENT_IPORT_KVAH"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30FREQUENCY_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30FREQUENCY_ValueasNumber"
+                                ],
+                                "item": "30FREQUENCY_ValueasNumber",
+                                "title": "FREQUENCY"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30PHASEANGLEVOLTAGEL1_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30PHASEANGLEVOLTAGEL1_ValueasNumber"
+                                ],
+                                "item": "30PHASEANGLEVOLTAGEL1_ValueasNumber",
+                                "title": "PHASE_ANGLE_VOLTAGE_L1"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30REACTIVEIMPORTKVARH_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30REACTIVEIMPORTKVARH_ValueasNumber"
+                                ],
+                                "item": "30REACTIVEIMPORTKVARH_ValueasNumber",
+                                "title": "REACTIVE_IMPORT_KVARH"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30VOLTAGEL1N_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30VOLTAGEL1N_ValueasNumber"
+                                ],
+                                "item": "30VOLTAGEL1N_ValueasNumber",
+                                "title": "VOLTAGE_L1"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "trendItem": "30VOLTAGEL2N_ValueasNumber",
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "30VOLTAGEL2N_ValueasNumber"
+                                ],
+                                "item": "30VOLTAGEL2N_ValueasNumber",
+                                "title": "ACTIVE_POWER_L2"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "component": "oh-block",
+            "config": {
+              "title": "E-Meter_27"
+            },
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_Active_Power": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_Active_Power",
+      "timestamp": "Aug 22, 2021, 12:56:35 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30ACTIVEIMPORTKWH_ValueasNumber + 1"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_ACTIVE_IMPORT_KWH",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30ACTIVEIMPORTKWH_ValueasNumber"
+            }
+          },
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_ACTIVE_POWER_L1",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30ACTIVEPOWERL1_ValueasNumber",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_ACTIVE_NET_L1",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30ACTIVENETL1_ValueasNumber"
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_REACTIVE_IMPORT_KVARH": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_REACTIVE_IMPORT_KVARH",
+      "timestamp": "Aug 22, 2021, 12:59:41 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30REACTIVEIMPORTKVARH_ValueasNumber"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_REACTIVE_IMPORT_KVARH",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30REACTIVEIMPORTKVARH_ValueasNumber",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              },
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_FREQUENCY": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_FREQUENCY",
+      "timestamp": "Aug 22, 2021, 12:57:46 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30FREQUENCY_ValueasNumber"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_FREQUENCY",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30FREQUENCY_ValueasNumber",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              },
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_3ffdf10be9": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_3ffdf10be9",
+      "timestamp": "Jul 30, 2021, 1:57:57 PM",
+      "component": "oh-chart-page",
+      "config": {
+        "label": "Sensors",
+        "visibleTo": [
+          "role:administrator",
+          "role:user"
+        ],
+        "sidebar": true,
+        "order": "3"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {}
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "Luminance",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "ZWaveNode006MotionSensor_Sensorluminance"
+            }
+          },
+          {
+            "component": "oh-time-series",
+            "config": {
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "name": "Temperature",
+              "item": "ZWaveNode006Motionsensor_Sensortemperature"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "show": true,
+              "type": "slider"
+            }
+          }
+        ],
+        "toolbox": [
+          {
+            "component": "oh-chart-toolbox",
+            "config": {
+              "show": true,
+              "presetFeatures": [
+                "dataView",
+                "dataZoom",
+                "magicType"
+              ]
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "show": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_83a0f89306": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_83a0f89306",
+      "timestamp": "Jul 19, 2021, 11:04:41 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "sidebar": true,
+        "order": "4",
+        "visibleTo": [
+          "role:administrator"
+        ],
+        "label": "Switches"
+      },
+      "slots": {
+        "default": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-toggle-card",
+                  "config": {
+                    "item": "ZWaveNode004HS2SKZSmartMeteringPlug_Switch",
+                    "title": "Electric  Switch"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_ccb439e6b9": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_ccb439e6b9",
+      "timestamp": "Jul 19, 2021, 9:03:13 AM",
+      "component": "oh-plan-page",
+      "config": {
+        "imageUrl": "http://localhost:8080/static/SmartLab.jpg",
+        "label": "SmartLab",
+        "sidebar": true,
+        "visibleTo": [
+          "role:administrator",
+          "role:user"
+        ],
+        "darkModeInvert": false
+      },
+      "slots": {
+        "default": [
+          {
+            "component": "oh-plan-marker",
+            "config": {
+              "name": "Lighting Sensor",
+              "coords": "203.6369578818957,677.3608283229373",
+              "item": "ZWaveNode006MotionSensor_Sensorluminance",
+              "iconUseState": true
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-plan-marker",
+            "config": {
+              "name": "Electric Switch",
+              "coords": "834.7159122478533,635.2705172859769",
+              "item": "ZWaveNode004HS2SKZSmartMeteringPlug_Switch"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-plan-marker",
+            "config": {
+              "name": "New Marker",
+              "coords": "403.8153675771326,158.81762932149422",
+              "item": "ZWaveSerialController_OOFBytesReceived"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-plan-marker",
+            "config": {
+              "name": "New Marker",
+              "coords": "570.0198633786963,135.4258854679408"
+            },
+            "slots": {
+              "default": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_Voltage_Chart": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_Voltage_Chart",
+      "timestamp": "Aug 22, 2021, 12:42:19 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30VOLTAGEL1N_ValueasNumber + 1"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_VOLTAGE_L1_N",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30VOLTAGEL1N_ValueasNumber",
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_VOLTAGE_L2_N",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30VOLTAGEL2N_ValueasNumber",
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "30_PHASE_ANGLE_VOLTAGE_L1": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "30_PHASE_ANGLE_VOLTAGE_L1",
+      "timestamp": "Aug 22, 2021, 12:58:59 AM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "period": "D",
+        "label": "30PHASEANGLEVOLTAGEL1_ValueasNumber"
+      },
+      "slots": {
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "name": "30_PHASE_ANGLE_VOLTAGE_L1",
+              "gridIndex": 0.0,
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0,
+              "type": "line",
+              "item": "30PHASEANGLEVOLTAGEL1_ValueasNumber",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              },
+              "markPoint": {
+                "label": {
+                  "backgroundColor": "auto"
+                },
+                "data": [
+                  {
+                    "type": "min",
+                    "name": "min"
+                  },
+                  {
+                    "type": "max",
+                    "name": "max"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_3c5b954f5b": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_3c5b954f5b",
+      "timestamp": "Aug 22, 2021, 1:09:37 AM",
+      "component": "oh-tabs-page",
+      "config": {
+        "label": "E-Meter_30",
+        "sidebar": true
+      },
+      "slots": {
+        "default": [
+          {
+            "component": "oh-tab",
+            "config": {
+              "title": "ACTIVE_POWER_L1 and ACTIVE IMPORT",
+              "icon": "f7:squares_below_rectangle",
+              "page": "page:30_Active_Power"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-tab",
+            "config": {
+              "title": "VOLTAGE",
+              "icon": "f7:squares_below_rectangle",
+              "page": "page:30_Voltage_Chart"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-tab",
+            "config": {
+              "title": "REACTIVE IMPORT",
+              "icon": "f7:squares_below_rectangle",
+              "page": "page:30_REACTIVE_IMPORT_KVARH"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-tab",
+            "config": {
+              "title": "PHASE and VOLTAGE",
+              "icon": "f7:squares_below_rectangle",
+              "page": "page:30_PHASE_ANGLE_VOLTAGE_L1"
+            },
+            "slots": {
+              "default": []
+            }
+          },
+          {
+            "component": "oh-tab",
+            "config": {
+              "title": "FREQUENCY",
+              "icon": "f7:squares_below_rectangle",
+              "page": "page:30_FREQUENCY"
+            },
+            "slots": {
+              "default": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

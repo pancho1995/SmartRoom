@@ -1,0 +1,10 @@
+{
+  "modbus:poller:4a27d305eb:235cc26d23": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:meter-split-phase:8e81c26dd6:c68e2f2228": {
+    "class": "java.lang.String",
+    "value": ""
+  }
+}

@@ -1,0 +1,16 @@
+GET information from security devices
+---
+tags:
+  - Security
+
+parameters:
+  - in: header
+    name: Authorization
+    required: false
+
+responses:
+  200:
+    description: Security info is retrieved
+
+  400:
+    description: Fails to get security status due to internal error

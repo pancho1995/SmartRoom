@@ -1,0 +1,42 @@
+{
+  "modbus:serial:6e115e7a8a": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:a4f646bf5c:30ecf1083a": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:a4f646bf5c:0afc8e5706": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:a4f646bf5c:dd51ff7a1f": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:14cb28cb1a:38378de355": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:14cb28cb1a:141533643e": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:meter-split-phase:8e81c26dd6:c68e2f2228": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:14cb28cb1a:42ea6cd0ae": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:14cb28cb1a:802bbb2dcc": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:poller:a4f646bf5c:819c05a5f2": {
+    "class": "java.lang.String",
+    "value": ""
+  }
+}

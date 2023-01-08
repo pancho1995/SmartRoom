@@ -1,0 +1,25 @@
+{
+  "page_2ee783313c": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_2ee783313c",
+      "tags": [],
+      "timestamp": "Jun 11, 2021, 12:23:15 PM",
+      "component": "Sitemap",
+      "config": {
+        "label": "New Sitemap",
+        "icon": ""
+      },
+      "slots": {
+        "widgets": [
+          {
+            "component": "Mapview",
+            "config": {
+              "icon": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+}

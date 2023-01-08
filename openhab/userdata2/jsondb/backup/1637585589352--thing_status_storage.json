@@ -1,0 +1,10 @@
+{
+  "modbus:meter-split-phase:8e81c26dd6:c68e2f2228": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "modbus:data:7b5dee1e08:e092168a30": {
+    "class": "java.lang.String",
+    "value": ""
+  }
+}

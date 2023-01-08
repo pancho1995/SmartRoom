@@ -1,0 +1,59 @@
+{
+  "admin": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "admin",
+      "passwordHash": "krUMJm3EFyUvIEldykbdgQln9EBaeMLNFVhFlqJaX3bbX9A1VoOPCqjEosbu2us4wNOzNgUUZ/RtoM7xS0GubA\u003d\u003d",
+      "passwordSalt": "rlntUgE7AxUtMbTDbG6OPbz9+Fsis7LOC7Zu2VMgvtDjZ/jeb/RaXrE8/eGNvNDJi7QTzDjGInYLOAXjvPN5ag\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "05cd1e8d-c1be-42e5-9024-2cf777f8021e",
+          "refreshToken": "b7c7ba08cc494398a19d80cb1370d442",
+          "createdTime": "Jun 11, 2021, 3:15:29 PM",
+          "lastRefreshTime": "Jul 7, 2021, 1:45:21 PM",
+          "clientId": "http://10.132.129.237:8080",
+          "redirectUri": "http://10.132.129.237:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "fcd6678b-f10a-4d35-a4f1-b748a20f2dbf",
+          "refreshToken": "c831ef556000489299f6617c9c52a7ec",
+          "createdTime": "Jul 19, 2021, 9:20:08 AM",
+          "lastRefreshTime": "Aug 20, 2021, 2:27:14 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "81e5225f-19cb-4b1c-916d-2fab3c7fe35e",
+          "refreshToken": "7e487d4ad71f4b57a16a3bc5c2928d2c",
+          "createdTime": "Aug 20, 2021, 3:04:31 PM",
+          "lastRefreshTime": "Aug 26, 2021, 4:09:46 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  },
+  "testuser": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "testuser",
+      "passwordHash": "TqgwkgteEoSFeFQhLR6Z9uMSFDZJYjNsqyr0erq12htdV9boVOvxPd7blZAR6Feq6w/v9eUOvAUHYD5f+wDrvA\u003d\u003d",
+      "passwordSalt": "TentPBNJvocvnp+Pkah68dR28/kVR14j5ottpIxkomdydd2+SlIf2yVorpTYRER2x7DMpD2Z9/kTop975rTzNg\u003d\u003d",
+      "roles": [
+        "user"
+      ],
+      "sessions": [],
+      "apiTokens": []
+    }
+  }
+}

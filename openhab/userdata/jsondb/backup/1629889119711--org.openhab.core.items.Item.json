@@ -1,0 +1,880 @@
+{
+  "31ACTIVEIMPORTKWH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  },
+  "ZWaveNode006MotionSensor_BatteryLevel": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Battery Level",
+      "category": "Battery"
+    }
+  },
+  "ZWaveNode006MotionSensor_Alarmgeneral": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Alarm (general)",
+      "category": "Alarm"
+    }
+  },
+  "ZWaveNode006MotionSensor_BinarySensor": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Binary Sensor",
+      "category": ""
+    }
+  },
+  "29VOLTAGEL1N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_VOLTAGE_L1_N",
+      "category": ""
+    }
+  },
+  "31APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "30VOLTAGEL1N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Voltage",
+        "Point"
+      ],
+      "label": "30_VOLTAGE_L1_N",
+      "category": "energy"
+    }
+  },
+  "31REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "26ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "26_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "30REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "27FREQUENCY_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_FREQUENCY",
+      "category": ""
+    }
+  },
+  "26REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "ModbusData25_LastSuccessfulRead": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "tags": [
+        "Point"
+      ],
+      "label": "Last Successful Read",
+      "category": ""
+    }
+  },
+  "SinglePhaseMeter_ACTotalCurrentValue": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:ElectricCurrent",
+      "tags": [
+        "Voltage",
+        "Point"
+      ],
+      "label": "AC Total Current Value",
+      "category": ""
+    }
+  },
+  "27ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "26ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "26_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "SinglePhaseMeter_ACPhaseCurrentValue": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:ElectricCurrent",
+      "tags": [
+        "Point"
+      ],
+      "label": "AC Phase Current Value",
+      "category": ""
+    }
+  },
+  "ZWaveSerialController_ReceivedChecksumErrors": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Received Checksum Errors",
+      "category": ""
+    }
+  },
+  "27ACTIVEIMPORTKWH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  },
+  "DummyItem": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [],
+      "label": "Dummy Item",
+      "category": ""
+    }
+  },
+  "ZWaveNode006MotionSensor_Sensorseismicintensity": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Sensor (seismic intensity)",
+      "category": ""
+    }
+  },
+  "30VOLTAGEL2N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_VOLTAGE_L2_N",
+      "category": ""
+    }
+  },
+  "31VOLTAGEL1N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_VOLTAGE_L1_N",
+      "category": ""
+    }
+  },
+  "30APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "30ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "ZWaveSerialController_StartFrames": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Status",
+        "Presence"
+      ],
+      "label": "Start Frames",
+      "category": ""
+    }
+  },
+  "25_ACTIVE_IMPORT_KWH": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  },
+  "29FREQUENCY_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_FREQUENCY",
+      "category": ""
+    }
+  },
+  "27Reactiveimport_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Number 27Reactiveimport_ValueasNumber \"27Reactiveimport_ValueasNumber [%.1f °C]\"",
+      "category": ""
+    }
+  },
+  "29REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "30ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Energy",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "25REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "31PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "27VOLTAGEL1N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_VOLTAGE_L1_N",
+      "category": ""
+    }
+  },
+  "31ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "ZWaveNode004HS2SKZSmartMeteringPlug_Electricmeterwatts": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "04-Electric meter (watts)",
+      "category": "Energy"
+    }
+  },
+  "ZWaveNode006MotionSensor_MotionAlarm": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Status",
+        "Presence"
+      ],
+      "label": "Motion Alarm",
+      "category": "Motion"
+    }
+  },
+  "SinglePhaseMeter_AverageLineToLineACVoltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:ElectricPotential",
+      "tags": [
+        "Point"
+      ],
+      "label": "Average Line To Line AC Voltage",
+      "category": ""
+    }
+  },
+  "29ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "30ACTIVEIMPORTKWH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  },
+  "ZWaveNode006MotionSensor_TamperAlarm": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Tamper Alarm",
+      "category": ""
+    }
+  },
+  "25ApparentImport_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25ApparentImport_ValueasNumber",
+      "category": ""
+    }
+  },
+  "25APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "25PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "26PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "26_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "ModbusData_LastErroringRead": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "tags": [
+        "Point"
+      ],
+      "label": "Last Erroring Read",
+      "category": ""
+    }
+  },
+  "29PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "31FREQUENCY_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_FREQUENCY",
+      "category": ""
+    }
+  },
+  "27PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "27ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "25ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "ZWaveSerialController_OOFBytesReceived": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "OOF Bytes Received",
+      "category": ""
+    }
+  },
+  "ZWaveNode006Motionsensor_Sensortemperature": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Sensor (temperature)",
+      "category": "Temperature"
+    }
+  },
+  "31ACTIVEPOWERL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "31_ACTIVE_POWER_L1",
+      "category": ""
+    }
+  },
+  "30PHASEANGLEVOLTAGEL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_PHASE_ANGLE_VOLTAGE_L1",
+      "category": ""
+    }
+  },
+  "SinglePhaseMeter_AverageLineToNeutralACVoltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:ElectricPotential",
+      "tags": [
+        "Point"
+      ],
+      "label": "Average Line To Neutral AC Voltage",
+      "category": ""
+    }
+  },
+  "30FREQUENCY_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "30_FREQUENCY",
+      "category": ""
+    }
+  },
+  "ZWaveNode006MotionSensor_Sensorluminance": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "06-Sensor (luminance)",
+      "category": ""
+    }
+  },
+  "ZWaveSerialController_FramesAcknowledged": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Frames Acknowledged",
+      "category": ""
+    }
+  },
+  "25ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "29APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "25VOLTAGEL1N_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_VOLTAGE_L1_N",
+      "category": ""
+    }
+  },
+  "ZWaveNode004HS2SKZSmartMeteringPlug_Switch": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "04-Switch",
+      "category": "Switch"
+    }
+  },
+  "26APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "26_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "29ACTIVENETL1_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_ACTIVE_NET_L1",
+      "category": ""
+    }
+  },
+  "25FREQUENCY_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "25_FREQUENCY",
+      "category": ""
+    }
+  },
+  "27APARENTIMPORTKVAH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_APARENT_IMPORT_KVAH",
+      "category": ""
+    }
+  },
+  "SinglePhaseMeter_RealEnergyImported": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Energy",
+      "tags": [
+        "Point"
+      ],
+      "label": "Real Energy Imported",
+      "category": ""
+    }
+  },
+  "27REACTIVEIMPORTKVARH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "27_REACTIVE_IMPORT_KVARH",
+      "category": ""
+    }
+  },
+  "26ACTIVEIMPORTKWH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "26_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  },
+  "SinglePhaseMeter_TotalRealPowerValue": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Power",
+      "tags": [
+        "Point"
+      ],
+      "label": "Total Real Power Value",
+      "category": ""
+    }
+  },
+  "ModbusData_LastSuccessfulRead": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "tags": [
+        "Point"
+      ],
+      "label": "Last Successful Read",
+      "category": ""
+    }
+  },
+  "29ACTIVEIMPORTKWH_ValueasNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "29_ACTIVE_IMPORT_KWH",
+      "category": ""
+    }
+  }
+}

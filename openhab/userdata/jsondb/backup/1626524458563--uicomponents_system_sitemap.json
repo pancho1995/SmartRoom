@@ -1,0 +1,49 @@
+{
+  "page_2ee783313c": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_2ee783313c",
+      "tags": [],
+      "timestamp": "Jun 11, 2021, 12:23:15 PM",
+      "component": "Sitemap",
+      "config": {
+        "label": "New Sitemap",
+        "icon": ""
+      },
+      "slots": {
+        "widgets": [
+          {
+            "component": "Mapview",
+            "config": {
+              "icon": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_aa53ea7bc3": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_aa53ea7bc3",
+      "tags": [],
+      "timestamp": "Jul 17, 2021, 2:20:58 PM",
+      "component": "Sitemap",
+      "config": {
+        "label": "New Sitemap",
+        "icon": ""
+      },
+      "slots": {
+        "widgets": [
+          {
+            "component": "Chart",
+            "config": {
+              "icon": "light",
+              "item": "ZWaveNode006MotionSensor_Sensorluminance"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

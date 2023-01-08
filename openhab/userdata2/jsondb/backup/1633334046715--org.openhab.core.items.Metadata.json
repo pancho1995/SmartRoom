@@ -1,0 +1,16 @@
+{
+  "widget:Washing_Machine": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "widget",
+          "Washing_Machine"
+        ],
+        "uid": "widget:Washing_Machine"
+      },
+      "value": " ",
+      "configuration": {}
+    }
+  }
+}

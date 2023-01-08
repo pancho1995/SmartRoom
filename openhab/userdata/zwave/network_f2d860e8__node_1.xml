@@ -1,0 +1,57 @@
+<node>
+  <homeId>0xf2d860e8</homeId>
+  <nodeId>1</nodeId>
+  <version>4</version>
+  <manufacturer>0x86</manufacturer>
+  <deviceId>0x5a</deviceId>
+  <deviceType>0x1</deviceType>
+  <listening>true</listening>
+  <frequentlyListening>false</frequentlyListening>
+  <routing>false</routing>
+  <security>false</security>
+  <beaming>true</beaming>
+  <maxBaudRate>40000</maxBaudRate>
+  <sleepDelay>1000</sleepDelay>
+  <associationGroups class="concurrent-hash-map"/>
+  <endpoints class="concurrent-hash-map">
+    <entry>
+      <int>0</int>
+      <endPoint>
+        <deviceClass>
+          <basicDeviceClass>BASIC_TYPE_STATIC_CONTROLLER</basicDeviceClass>
+          <genericDeviceClass>GENERIC_TYPE_STATIC_CONTROLLER</genericDeviceClass>
+          <specificDeviceClass>SPECIFIC_TYPE_PC_CONTROLLER</specificDeviceClass>
+        </deviceClass>
+        <endpointId>0</endpointId>
+        <secureCommandClasses/>
+        <supportedCommandClasses class="concurrent-hash-map">
+          <entry>
+            <commandClass>COMMAND_CLASS_BASIC</commandClass>
+            <COMMAND__CLASS__BASIC>
+              <version>0</version>
+              <instances>0</instances>
+              <control>false</control>
+              <versionSupported>0</versionSupported>
+              <isGetSupported>true</isGetSupported>
+            </COMMAND__CLASS__BASIC>
+          </entry>
+          <entry>
+            <commandClass>COMMAND_CLASS_NO_OPERATION</commandClass>
+            <COMMAND__CLASS__NO__OPERATION>
+              <version>1</version>
+              <instances>0</instances>
+              <control>false</control>
+              <versionSupported>1</versionSupported>
+            </COMMAND__CLASS__NO__OPERATION>
+          </entry>
+        </supportedCommandClasses>
+      </endPoint>
+    </entry>
+  </endpoints>
+  <nodeNeighbors>
+    <int>3</int>
+    <int>4</int>
+    <int>5</int>
+    <int>6</int>
+  </nodeNeighbors>
+</node>

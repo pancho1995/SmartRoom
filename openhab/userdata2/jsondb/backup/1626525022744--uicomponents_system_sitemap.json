@@ -1,0 +1,26 @@
+{
+  "page_7357fbe05d": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_7357fbe05d",
+      "tags": [],
+      "timestamp": "Jul 17, 2021, 2:30:22 PM",
+      "component": "Sitemap",
+      "config": {
+        "label": "New Sitemap",
+        "icon": ""
+      },
+      "slots": {
+        "widgets": [
+          {
+            "component": "Video",
+            "config": {
+              "icon": "",
+              "item": "ZWaveNode004HS2SKZSmartMeteringPlug_Electricmeterwatts"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
